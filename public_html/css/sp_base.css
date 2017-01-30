@@ -1,0 +1,282 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016/08/29, 22:08:57
+    Author     : Ryo Sato(CLB)
+*/
+
+/*======================================
+SP
+*/
+body{
+    margin: 0px;
+    max-width: 100%;
+}
+
+/*======================================
+SP
+*/
+div#contents{
+    width: 100%;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+}
+
+
+/*======================================
+SP
+*/
+div#headerMenu{
+    width: 100%;
+    height: 25px;
+    left: 0px;
+}
+
+/*======================================
+SP
+*/
+div#menuimg{
+    display:block;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
+div#menuimg input{
+    height: 28px;
+    width: 28px;
+}
+
+
+div#logoimg {
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+
+/*======================================
+SP
+*/
+div#main{
+    width: 100%;
+    position: static;
+    margin-top: 10px; 
+    text-align: center;
+}
+
+
+/*======================================
+SP
+*/
+#nav{
+    display: none;
+    top: 25px;
+    padding: 0px;
+    padding-top: 5px;
+    margin-left: 0px;
+} 
+
+/*======================================
+SP
+*/
+#nav ul{
+    align-content: center;
+} 
+
+/*======================================
+SP
+*/
+#nav ul li {
+    width: 100%;
+    float: none;
+    display: -webkit-box; /* safari, Chrome */
+    display: -moz-box;    /* Firefox */
+    display: -o-box;      /* Opera */
+    display: -ms-box;     /* IE */
+    display: box;         /* ベンダープレフィックスなし */
+} 
+
+/*======================================
+SP
+*/
+#nav ul li a { 
+    width: 98%;
+    border-bottom: 1px solid #666;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFFFFF;
+    height: 60px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    line-height: 60px;
+} 
+
+/*======================================
+SP
+*/
+#nav ul li a:hover{ 
+    border-bottom: dotted 1px #fff;	 
+}
+
+
+/*======================================
+SP
+*/
+/* LBのロゴ */
+h1#Logofont{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+/*======================================
+SP
+*/
+/* スマホ用 */
+h2{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+/*======================================
+SP
+*/
+/* スマホ用 */
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*======================================
+SP
+*/
+/* スマホ用 */
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*======================================
+SP
+*/
+/* スマホ用 */
+/* indexの3列の部分 */
+ul.category{
+    padding: 0px;
+    position: relative;
+    list-style-type:none;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    display:block;
+    table-layout: auto;
+}
+
+
+/*======================================
+SP
+*/
+/* スマホ用 */
+ul.category li{
+    width: 100%;
+    height:300px;
+    display: block;
+    padding: 0px;
+}
+
+
+/*======================================
+SP
+*/
+img {
+    max-width: 90%;
+}
+
+/*======================================
+SP
+*/
+div.subcategory{
+    width: 100%;
+    overflow:auto;
+    height: 70px;
+}
+
+/*======================================
+SP
+*/
+div.subcategory table{
+    table-layout: fixed;
+    width: 854px;
+    height: 100%;
+}
+
+/*======================================
+SP
+*/
+div.subcategory table td{
+    vertical-align: top;
+    border: 3px solid;
+    border-color: white;
+    background-color: silver;
+}
+
+/*======================================
+SP
+*/
+table.common{
+    border:0;
+}
+
+table.common thead{
+    display:none;
+}
+
+table.common tr{
+    margin-bottom:10px;
+    display:block;
+    border-bottom:2px solid #ddd;
+}
+
+table.common td{
+    display:block;
+    text-align:right;
+    font-size:13px;
+    border-bottom:1px dotted #ccc;
+}
+
+table.common td:last-child{
+    border-bottom:0;
+}
+
+table.common td:before {
+    content:attr(data-label);
+    float:left;
+    font-weight: bold;
+}
+/*======================================
+SP
+*/
+div#left_text{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}

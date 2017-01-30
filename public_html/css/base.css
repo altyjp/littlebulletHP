@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016/08/29, 22:08:57
+    Author     : Ryo Sato(CLB)
+*/
+
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color:#568c64;
+}
+
+
+div#contents{
+    position: relative;
+    width: 854px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+div#headerAndImg{
+    margin-left: -500%;
+    margin-right: -500%;
+    padding-left: 500%;
+    padding-right: 500%;
+}
+
+
+div#headerMenu{
+    position: relative;
+    height: 130px;
+    left: 150px;
+}
+
+
+a {
+    color: #0033ff;
+    text-decoration:none;
+}
+
+a:visited{
+    color: #0033ff;
+}
+
+div#logoimg {
+    position: absolute;
+    float: left;
+    height: 130px;
+    width: 150px;
+}
+
+div#menuimg{
+    display: none;
+}
+
+
+div#main{
+    width: 100%;
+    /*position: absolute; */
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div#left_text{
+    text-align: left;
+}
+
+
+#nav{
+    display: inline;
+    padding: 3px;
+    margin-left: 10px;
+} 
+
+
+#nav ul{
+    padding: 0px; 	
+    margin: 0px;
+} 
+
+
+#nav ul li {
+    display: inline;
+    float: left;
+} 
+
+
+#nav ul li a { 
+    border-bottom: 1px solid #666;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFFFFF;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+} 
+
+
+#nav ul li a:hover{ 
+    background-color: #BDC3C4;
+    border-bottom: dotted 1px #fff;	 
+}
+
+/* LBのロゴ */
+h1#Logofont{
+    font-size: 45px;
+    margin: 10px;
+    color: #34495e;
+}
+
+h1#Logofont a{
+     color:#34495e; 
+}
+
+/* indexの3列の部分 */
+ul.category{
+    padding: 0px;
+    position: relative;
+    list-style-type:none;
+    width: 854px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    display:table;
+    table-layout: fixed;
+}
+
+ul.category li{
+    width: 234px;
+    height:300px;
+    display:table-cell;
+    padding: 10px;
+}
+
+div.subcategory{
+    overflow:auto;
+    height: 60px;
+}
+
+div.subcategory table{
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+div.subcategory table td{
+    padding: 0px;
+    vertical-align: top;
+    border: 3px solid;
+    border-color: white;
+    background-color: #efefef;
+}
+
+div.subcategory table td:hover{
+    background-color: lightgray;
+}
+
+div.subcategory table td a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+
+table.common{
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #ccc;
+	padding:0;
+	margin:0;
+}
+
+table.common tr{
+	border:1px solid #ddd;
+	padding:5px;
+}
+
+table.common th, table.common td{
+	padding:10px;
+	text-align:center;
+}
+
+table.common th{
+	font-size:14px;
+	letter-spacing:1px;
+}
+
+h3{
+    border-bottom: 1px black solid;
+    border-left: 10px black solid;
+}
