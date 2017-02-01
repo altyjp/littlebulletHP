@@ -45,8 +45,8 @@ SP
 div#menuimg{
     display:block;
     position: absolute;
-    top: 0%;
-    right: 2%;
+    top: -4px;
+    right: 8px;
 }
 
 div#menuimg input{
@@ -218,6 +218,7 @@ div.subcategory{
     width: 100%;
     overflow:auto;
     height: 70px;
+    -webkit-overflow-scrolling:touch;
 }
 
 /*======================================

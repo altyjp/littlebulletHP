@@ -51,10 +51,10 @@ function menu_btn(){
     if($display == "none" || $display == ""){
         //表示処理
         document.getElementById("nav").style.display = "block";
-        document.getElementById("header").style.height = "370px";
+        document.getElementById("headerMenu").style.height = "370px";
     } else {
         //非表示処理
         document.getElementById("nav").style.display = "none";
-        document.getElementById("header").style.height = "25px";
+        document.getElementById("headerMenu").style.height = "25px";
     }
 }
