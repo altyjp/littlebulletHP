@@ -12,6 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" media="screen and (max-width: 768px)" type="text/css" href="../css/sp_base.css">
         <link href="../css/fonts.css" rel = "stylesheet" type="text/css">
         <script type="text/javascript" src="../js/menu.js" ></script>
+        <script type="text/javascript" src="../js/mailtojs.js" ></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="little bullet,サバゲ,サバゲー,サバイバルゲーム">
@@ -52,63 +53,36 @@ and open the template in the editor.
                     </table>
                 </div>
                 
-                <h1>Little Bullet 隊員用ページ</h1>
-
-
-                <ul class="category">
-                    <li>
-                        <a href="roe.html">
-                            <img src="img/rule_icn.png" alt="ルール" width="100"/>
-                            <br /><br />
-                            Little Bullet隊則
-                        </a>
-                        <br /><br />
-                        隊員の規則を確認しましょう
-                    </li>
-
-                    <li>
-                        <a href="regulation.html">
-                            <img src="img/calender_icn.png" alt="タイムテーブル" width="100"/>
-                        <br /><br />
-                        ブリーフィング確認事項、タイムテーブル例
-                        <br /><br />
-                        </a>
-                        サバゲー前の確認事項について
-                    </li>
-                    <li>
-                        <a href="gamerule.html">
-                            <img src="img/penNote_icn.png" alt="タイムテーブル" width="100"/>
-                        <br /><br />
-                        ゲームルール一覧
-                        </a>
-                        <br /><br />
-                        LB内部での独自ルールなどはこちらから
-                    </li>
-
-                </ul>
-
-                <ul class="category">
-                    <li>
-                        <a href="member.html">
-                            <img src="img/memberlist_icn.png" alt="メンバー" width="100"/>
-                        <br /><br />
-                        隊員紹介
-                        </a>
-                        <br /><br />
-                        LBに所属している人の紹介
-                    </li>
-                    <li>
-                        <a href="dictionary.html">
-                            <img src="img/dictionary_icn.png" alt="辞書" width="100"/>
-                        <br /><br />
-                        LB用語辞典
-                        <br /><br />
-                        </a>
-                        LB内でしか通じないネタ
-                    </li>
-                    
-                </ul>
-
+                <h1>Little Bullet メンバー更新画面</h1>
+                <h2>この更新画面からメールを送信してください。</h2>
+                CLBの気が向いたときに更新してます。<br/>
+                
+                <form enctype="text/plain" name="mailForm">
+                    <table style="margin: auto;text-align: right;">
+                        <tr>
+                            <td>インバイトコード</td>
+                            <td><input type="text" name="invateCode"/></td>
+                        </tr>
+                        <tr id="newHandleName">
+                            <td>ハンドルネーム</td>
+                            <td><input type="text" name="handleName"/></td>
+                        </tr>
+                        <tr>
+                            <td>メイン武器</td>
+                            <td><input type="text" name="mainWepon"/></td>
+                        </tr>
+                        <tr>
+                            <td>サブ武器</td>
+                            <td><input type="text" name="subWepon"/></td>
+                        </tr>
+                        <tr>
+                            <td>コメント</td>
+                            <td><input type="text" name="comment"/></td>
+                        </tr>
+                    </table>
+                    <p><input type="button" value="メールを作成する！" onClick="makeMail()" /></p>
+                </form>
+                
             </div>
         </div>
     </body>
