@@ -10,8 +10,8 @@ and open the template in the editor.
         <title>Little Bullet サバイバルゲームチーム</title>
         <link href="../css/base.css" rel = "stylesheet" type="text/css">
         <link rel="stylesheet" media="screen and (max-width: 768px)" type="text/css" href="../css/sp_base.css">
-        <link href="../css/fonts.css" rel = "stylesheet" type="text/css">
         <script type="text/javascript" src="../js/menu.js" ></script>
+        <script type="text/javascript" src="../js/thumbnail.js" ></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="little bullet,サバゲ,サバゲー,サバイバルゲーム">
@@ -49,30 +49,15 @@ and open the template in the editor.
                  もっぱらゲームの集合写真を置いている場。<br/>
                  (※一応、顔出しNGの人には雑なアイモザイクをかけています)
                  </p>
-                
-                 <ul class="category" >  
-                    <li style="height: 150px;">
-                        <a href="2016_08_26.jpg" target="_blank">
-                        <img src="2016_08_26.jpg" alt="集合写真" width="150"/>
-                        <br />
-                        2016.8.26 6周年記念ゲーム
-                        </a>
-                    </li>
-                    <li style="height: 150px;">
-                        <a href="http://www.nicovideo.jp/watch/sm30075959" target="_blank">
-                        <img src="sm30075959.jpg" alt="集合写真" width="150"/>
-                        <br />
-                        動画【サバゲー】ゆっくり実況【Little Bullet】
-                        </a>
-                    </li>
-                    <li style="height: 150px;">
-                        <a href="2015_01_06.JPG" target="_blank">
-                        <img src="2015_01_06.JPG" alt="集合写真" width="150"/>
-                        <br />
-                        2015.1.6 新年ゲーム in HEADSHOT！
-                        </a>
-                    </li>
-                </ul>
+                 <!-- ここにthumbnail.jsonから読み込んだサムネイルを表示 -->
+                 <h2>写真</h2>
+                 <div id="thumbnail_photo">
+                     
+                 </div>
+                 <h2>動画</h2>
+                <div id="thumbnail_movie">
+                     
+                 </div>
                  
                  <h2>2014年以前の写真</h2>
                 <a href="2014_11_16.JPG" target="_blank" style="width:100%; height:auto; ">2014.11.16 トリガートーク貸切ゲーム</a><br/>
@@ -121,4 +106,5 @@ and open the template in the editor.
             </div>
         </div>
     </body>
+    
 </html>
